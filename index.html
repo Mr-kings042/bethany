@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY BIRTHDAY BETHANY</title>
+<link rel="shortcut icon" href="favicon.ico" type="images">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="slideshow-container">
+    
+    <div class="mySlides fade">
+        <h1>HAPPY BIRTHDAY GIFT FROM BOBO TO YOU BETHANY</h1>
+    </div>
+    <div class="mySlides fade">
+        <video src="video/happy birthday.mp4"autoplay loop></video>
+        <div class="text">HAPPY BIRTHDAY BETHANY</div>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/birthday 2.jpg" style="width:100%">
+        <div class="text">HAPPY BIRTHDAY BESTIE</div>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/birthday 3.jpg" style="width:100%">
+        <div class="text">HAPPY BIRTHDAY FEMALE BOBO</div>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/birthday.jpg" style="width:100%">
+        <div class="text">HAPPY BIRTHDAY ANIH CHIAMKA FAITH</div>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/IMG_6831.JPG" style="width:100%">
+        <div class="text">HAPPY BIRTHDAY IMT BEST GIFT TO ME</div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/IMG_6945.JPG" style="width:100%">
+        <div class="text">LIVE LONG AND PROSPER</div>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/IMG-20240113-WA0002.jpg" style="width:100%">
+        <div class="text">LIVE LONG AND MAKE MORE MONEY</div>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/IMG-20240113-WA0008.jpg" style="width:100%">
+        <div class="text">LIVE LONG AND PROSPER</div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/IMG-20240113-WA0003.jpg" style="width:100%">
+        <div class="text">BOBO HEARTS YOU FULL TIME</div>
+    </div>
+
+</div>
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+</script>
+
+</body>
+</html>
